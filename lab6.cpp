@@ -49,7 +49,7 @@ void printBinomialNewton(int n){
     cout << "(x + y)^" << n << " = ";
 
     for(int k = 0; k <= n; k++){
-        long long coef = C_n_k(n, k); // Знаходимо коефіцієнт
+        long long coef = C_n_k(n, k);
 
         if(k > 0){
             cout << " + ";
